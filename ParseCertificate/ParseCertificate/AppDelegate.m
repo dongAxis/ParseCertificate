@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "ParseCertificate_Perdefine.h"
+#import "ParseCertificate_MainTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];    //init main window
+    self.window.rootViewController = [[ParseCertificate_MainTableViewController alloc] init];
+    
     return YES;
 }
 
