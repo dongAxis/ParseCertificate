@@ -9,5 +9,9 @@
 #ifndef ParseCertificate_ParseCertificate_UIPerdefine_h
 #define ParseCertificate_ParseCertificate_UIPerdefine_h
 
+#define kLogoWidth (132 / 3)
+#define kLogoHeight (62 / 3)
+#define kStatusHeight 20
+#define kHome_Margin 10
 
 #endif

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ParseCertificate_MainTableViewController : UITableViewController
+@interface ParseCertificate_MainTableViewController : UITabBarController
 
 @end

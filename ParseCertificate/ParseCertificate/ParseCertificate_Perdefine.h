@@ -9,6 +9,9 @@
 #ifndef ParseCertificate_ParseCertificate_Perdefine_h
 #define ParseCertificate_ParseCertificate_Perdefine_h
 
+#import "ParseCertificate_UIPerdefine.h"
+#import "ParseCertificate_CorePerdefine.h"
+
 #undef IN
 #define IN
 

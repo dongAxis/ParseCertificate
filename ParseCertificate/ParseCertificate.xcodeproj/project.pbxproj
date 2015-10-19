@@ -14,6 +14,8 @@
 		E65402071BD4E7AB00B8E071 /* ParseCertificateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E65402061BD4E7AB00B8E071 /* ParseCertificateTests.m */; };
 		E65402131BD4E96500B8E071 /* ParseCertificate_MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E65402121BD4E96500B8E071 /* ParseCertificate_MainTableViewController.m */; };
 		E65402191BD4EC4500B8E071 /* ParseCertificate_BaseNavigationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E65402181BD4EC4500B8E071 /* ParseCertificate_BaseNavigationClass.m */; };
+		E654021E1BD4F5D900B8E071 /* ParseCertificate_NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E654021D1BD4F5D900B8E071 /* ParseCertificate_NavigationBar.m */; };
+		E65402221BD4F7E200B8E071 /* ParseCertificate_HeaderNavbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E65402211BD4F7E200B8E071 /* ParseCertificate_HeaderNavbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,10 @@
 		E65402181BD4EC4500B8E071 /* ParseCertificate_BaseNavigationClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParseCertificate_BaseNavigationClass.m; path = UI/Nav/ParseCertificate_BaseNavigationClass.m; sourceTree = "<group>"; };
 		E654021A1BD4ECAA00B8E071 /* ParseCertificate_UIPerdefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseCertificate_UIPerdefine.h; sourceTree = "<group>"; };
 		E654021B1BD4ECD300B8E071 /* ParseCertificate_CorePerdefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ParseCertificate_CorePerdefine.h; path = config/ParseCertificate_CorePerdefine.h; sourceTree = "<group>"; };
+		E654021C1BD4F5D900B8E071 /* ParseCertificate_NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseCertificate_NavigationBar.h; sourceTree = "<group>"; };
+		E654021D1BD4F5D900B8E071 /* ParseCertificate_NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseCertificate_NavigationBar.m; sourceTree = "<group>"; };
+		E65402201BD4F7E200B8E071 /* ParseCertificate_HeaderNavbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParseCertificate_HeaderNavbar.h; path = UI/View/ParseCertificate_HeaderNavbar.h; sourceTree = "<group>"; };
+		E65402211BD4F7E200B8E071 /* ParseCertificate_HeaderNavbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParseCertificate_HeaderNavbar.m; path = UI/View/ParseCertificate_HeaderNavbar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +131,7 @@
 		E65402101BD4E90600B8E071 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				E654021F1BD4F79800B8E071 /* View */,
 				E65402161BD4EAFD00B8E071 /* Nav */,
 				E65402111BD4E96500B8E071 /* ParseCertificate_MainTableViewController.h */,
 				E65402121BD4E96500B8E071 /* ParseCertificate_MainTableViewController.m */,
@@ -147,8 +154,19 @@
 			children = (
 				E65402171BD4EC4500B8E071 /* ParseCertificate_BaseNavigationClass.h */,
 				E65402181BD4EC4500B8E071 /* ParseCertificate_BaseNavigationClass.m */,
+				E654021C1BD4F5D900B8E071 /* ParseCertificate_NavigationBar.h */,
+				E654021D1BD4F5D900B8E071 /* ParseCertificate_NavigationBar.m */,
 			);
 			name = Nav;
+			sourceTree = "<group>";
+		};
+		E654021F1BD4F79800B8E071 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E65402201BD4F7E200B8E071 /* ParseCertificate_HeaderNavbar.h */,
+				E65402211BD4F7E200B8E071 /* ParseCertificate_HeaderNavbar.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +270,8 @@
 			files = (
 				E65401F01BD4E7AB00B8E071 /* AppDelegate.m in Sources */,
 				E65402131BD4E96500B8E071 /* ParseCertificate_MainTableViewController.m in Sources */,
+				E65402221BD4F7E200B8E071 /* ParseCertificate_HeaderNavbar.m in Sources */,
+				E654021E1BD4F5D900B8E071 /* ParseCertificate_NavigationBar.m in Sources */,
 				E65401ED1BD4E7AB00B8E071 /* main.m in Sources */,
 				E65402191BD4EC4500B8E071 /* ParseCertificate_BaseNavigationClass.m in Sources */,
 			);
